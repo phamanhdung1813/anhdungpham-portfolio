@@ -25,7 +25,7 @@ function Home() {
               <h1 className="short-description">
                 I'm 21 years old, I am currently living in Toronto, Canada. 
                 My graduated program is Computer System Technology. Especially, I am interested in 
-                Backend developer with Java Spring, and working with automatic tasks on Cloud platform. 
+                Back-End developer with Java Spring, and working with automatic tasks on Cloud platform. 
               </h1>
             </Col>
             

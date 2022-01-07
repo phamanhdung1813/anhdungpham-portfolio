@@ -17,7 +17,7 @@ function Resume() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="outline-success" href={myResume} target="_blank">
             <VscDesktopDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
           </Button>
         </Row>
         <Row className="resume">
@@ -61,7 +61,7 @@ function Resume() {
               title=""
               content={[
                 "Presently graduated in Computer Systems Technology Advanced Diploma Co-op with the solid knowledge of Computer data management, networking technology and seeking for the full-time position on Fresher/Junior Web Developer or Networking Technician Support.",
-                "Experienced on studying, practicing Java Spring projects with Spring Boot and RESTful API on Java 8+ with Maven project. Demonstrated networking analysis with Cisco CCNA to solve common network problems, and implement tasks on Amazon AWS.",
+                "Experienced on studying, practicing Java Spring projects with Spring Boot and RESTful API on Java 8+ with Maven project. Demonstrated networking analysis with Cisco CCNA to solve common network problems, and implement routing on cloud platforms.",
                 "Excellent team-working and problem-solving in order to figure out a technical problem and able to work collaboratively in a team for sharing ideas.",
               ]}
             />
@@ -82,7 +82,7 @@ function Resume() {
               date="APRIL 2021 – AUGUST 2021"
               content={[
                 "Responsible for supporting new students figure out the labs error.",
-                "Helping professor by performing basic analyses and evaluating results.",
+                "Helping professor by performing basic problems analysis and evaluating results.",
                 "Use communication skills to help students complete their practical lab and develop writing-skill for the lab report.",
               ]}
             />
@@ -93,10 +93,10 @@ function Resume() {
               title="TECHNOLOGY SKILLS AND ABILITIES"
               content={[
                 "Programing: Java, Python, JavaScript, HTML, CSS, Bash scripting, MySQL.",
-                "Web: Java Spring, React with Redux",
-                "Software: MS Office (Word, Excel, Outlook, PowerPoint), VMware Work Station, Cisco Packet Tracer, Postman.",
-                "DevOps: Docker, Jenkins, CICD, Kubernetes, Puppet, Nagios, Fabric API.",
-                "Platforms: Amazon AWS, Ubuntu, CentOS 8, Windows Server, Window 10.",
+                "Web: Java Spring, React with Redux.",
+                "Software: MS Office (Word, Excel, Outlook, PowerPoint), VMware Work Station, Cisco Packet Tracer, Postman, IntelliJ",
+                "DevOps: Docker, Jenkins, CICD, Kubernetes.",
+                "Platforms: Amazon AWS, Ubuntu, CentOS 8, Windows platform",
               ]}
             />
             <div className="resume-item">
@@ -132,7 +132,7 @@ function Resume() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="outline-success" href={myResume} target="_blank">
             <VscDesktopDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
           </Button>
         </Row>
       </Container>
