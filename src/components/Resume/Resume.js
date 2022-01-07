@@ -94,9 +94,9 @@ function Resume() {
               content={[
                 "Programing: Java, Python, JavaScript, HTML, CSS, Bash scripting, MySQL.",
                 "Web: Java Spring, React with Redux.",
-                "Software: MS Office (Word, Excel, Outlook, PowerPoint), VMware Work Station, Cisco Packet Tracer, Postman, IntelliJ",
+                "Software: MS Office (Word, Excel, Outlook, PowerPoint), VMware Work Station, Cisco Packet Tracer, Postman, IntelliJ.",
                 "DevOps: Docker, Jenkins, CICD, Kubernetes.",
-                "Platforms: Amazon AWS, Ubuntu, CentOS 8, Windows platform",
+                "Platforms: Amazon AWS, Ubuntu, CentOS 8, Windows platform.",
               ]}
             />
             <div className="resume-item">
