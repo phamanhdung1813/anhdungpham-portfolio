@@ -8,7 +8,7 @@ function ShortAboutMe() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <Card.Text style={{ textAlign: "justify" }}>
-            Hi guy !!!{" "}
+            Hi there !!!{" "}
             <span className="wave" role="img" aria-labelledby="wave">
               👋🏻
             </span>

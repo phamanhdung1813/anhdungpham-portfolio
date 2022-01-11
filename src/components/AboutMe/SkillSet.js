@@ -35,19 +35,23 @@ function SkillSet() {
       <li style={{ display: "inline" }} className="about-activity">
         <h3 className="about-activity">Core Language: </h3>
         {coreLanguages}
-        <br/><br/>
+        <br />
+        <br />
 
         <h3 className="about-activity">Back-End: </h3>
         {backend}
-        <br/><br/>
+        <br />
+        <br />
 
         <h3 className="about-activity">Platforms:</h3>
         {platform}
-        <br/><br/>
+        <br />
+        <br />
 
         <h3 className="about-activity">Front-End: </h3>
         {frontend}
-        <br/><br/>
+        <br />
+        <br />
       </li>
     </ul>
   );
