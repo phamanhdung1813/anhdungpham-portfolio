@@ -42,7 +42,7 @@ const ProjectDetails = (props) => {
           {"    "}
           <a className="btn btn-link btn-ln" href={props.source}>
             SOURCE
-            <BiCodeBlock size="4.4rem" />
+            <BiCodeBlock size="4rem" />
           </a>
         </div>
       </Card.Body>
