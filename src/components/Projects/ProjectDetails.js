@@ -5,10 +5,12 @@ import { BsQuestion } from "react-icons/bs";
 
 const ProjectDetails = (props) => {
   const pTech = props.techs.map((tech, i) => (
-    <div className="mb-2" key={i}>
-      <li className="project-icon-custom-li">
-        <img className="project-icon-custom-icon" alt={i} src={tech}></img>
-      </li>
+    <div className="mb-2" style={{ display: "inline-block", padding:"10px", marginLeft:"15px"}} key={i}>
+      <Card.Img
+        className="project-icon-custom-icon "
+        alt={i}
+        src={tech}
+      ></Card.Img>
     </div>
   ));
 
@@ -30,9 +32,9 @@ const ProjectDetails = (props) => {
           TECHNOLOGIES
         </Card.Text>
 
-        <ul className="project-icon-custom-ul">{pTech}</ul>
+        <div>{pTech}</div>
 
-        <div style={{ textAlign: "right" }} className="mb-3">
+        <div style={{ textAlign: "center", display:"inline-block" }} className="mb-3">
           <a className="btn btn-outline-success" href={props.visit}>
             DEMO
             <BsQuestion size="3rem" />

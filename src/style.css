@@ -447,8 +447,8 @@ html {
   box-shadow: none !important;
 }
 
-.project-icon-custom-ul {
-  display: flex;
+/* .project-icon-custom-ul {
+  display: block !important;
   justify-content: space-around;
   padding: 0rem;
   list-style-type: none;
@@ -457,7 +457,7 @@ html {
 .project-icon-custom-li:hover {
   transform: scale(1.1) !important;
   overflow: hidden !important;
-}
+} */
 
 .btn-link {
   color: #80ffaa;
@@ -473,16 +473,21 @@ html {
   border-color: rgba(21, 235, 14, 0.753);
 }
 
-.project-icon-custom-li {
+/* .project-icon-custom-li {
   font-size: 0rem !important;
-  display: inline-block !important;
+  display: inline !important;
   margin: 5px 5px 0px !important;
-}
+} */
 
 .project-icon-custom-icon {
-  width: 50px !important;
-  height: 50px !important;
+  width: 55px !important;
+  height: 55px !important;
   object-fit: cover !important;
+  overflow: hidden !important;
+}
+
+.project-icon-custom-icon:hover {
+  transform: scale(1.1) !important;
   overflow: hidden !important;
 }
 
