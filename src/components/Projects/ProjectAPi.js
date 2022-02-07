@@ -11,13 +11,7 @@ export const projectsAPI = [
       "/images/AboutMe/SkillSet/HTML5.svg",
       "/images/AboutMe/SkillSet/css3.svg",
     ],
-    name: [
-      "React JS",
-      "JavaScript",
-      "Bootstrap",
-      "HTML5",
-      "CSS3",
-    ],
+    name: ["React JS", "JavaScript", "Bootstrap", "HTML5", "CSS3"],
     source: "https://github.com/phamanhdung1813/anhdungpham-portfolio",
     visit: "https://github.com/phamanhdung1813/anhdungpham-portfolio",
     id: 0,
@@ -37,6 +31,22 @@ export const projectsAPI = [
     source: "https://github.com/phamanhdung1813/spring_boot_security_backend",
     visit: "https://github.com/phamanhdung1813/spring_boot_security_backend",
     id: 1,
+  },
+  {
+    title: "DOCKER JENKINS AUTOMATE MAVEN PROJECT",
+    description:
+      "This project was built in OpenJDK 8 using Jenkins for Continuous Integration and interact with the Docker Hub automatically. When committing the project into GitHub account, Jenkins will execute the maven building process to update the (.jar) file and push the tag file into Docker Hub account.",
+    image: "/images/Project/docker-jenkins-springboot/avatar.png",
+    techs: [
+      "/images/AboutMe/SkillSet/java.svg",
+      "/images/AboutMe/SkillSet/git.png",
+      "/images/AboutMe/SkillSet/springboot.png",
+      "/images/AboutMe/SkillSet/jenkins.svg",
+      "/images/AboutMe/SkillSet/docker.svg",
+    ],
+    source: "https://github.com/phamanhdung1813/docker-jenkins-springboot",
+    visit: "https://www.youtube.com/watch?v=lhRTevTtpLs",
+    id: 12,
   },
   {
     title: "OAUTH2 SPRING SECURITY",
