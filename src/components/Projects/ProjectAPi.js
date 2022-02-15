@@ -67,6 +67,20 @@ export const projectsAPI = [
     id: 2,
   },
   {
+    title: "SPRINGBOOT REACTJS WEBSOCKET",
+    description:
+      "Websocket is a protocol that supports two-way communication between the client and the server to create a data exchange connection. This project demo shortly real-time chatting conversation by using StompClient and SockJS library, Backend server on this project was build in Java Spring Boot and client side was built on ReactJs.",
+    image: "/images/Project/springboot-reactjs-websocket/avatar.png",
+    techs: [
+      "/images/AboutMe/SkillSet/java.svg",
+      "/images/AboutMe/SkillSet/reactjs.png",
+      "/images/AboutMe/SkillSet/springboot.png",
+    ],
+    source: "https://github.com/phamanhdung1813/springboot-reactjs-websocket",
+    visit: "https://www.youtube.com/watch?v=WiI4SYQ1m2I",
+    id: 13,
+  },
+  {
     title: "HOXTON CLOUD OAUTH2 SERVER",
     description:
       "This project was built in Java 11 JDK by using Spring Boot and Hoxton Cloud. In this project, I learned how to transfer the Security Token between the resource server and authorization server and configure token enhancer, token endpoint. The JWT token build in this project was protected by using the JKS asymmetric key and token parse on resource server by using the public key access.",
