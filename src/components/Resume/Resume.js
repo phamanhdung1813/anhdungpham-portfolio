@@ -58,10 +58,10 @@ function Resume() {
             <ResumeDetails
               title=""
               content={[
-                "Three years Computer System Technology student with a solid experience on Networking support and Web development.",
-                "Experienced on learning, practicing web applications and demonstrate common networking tasks on cloud platform.",
+                "Three years Computer System Technology student with a solid experience in Networking support and Web development.",
+                "Experienced in learning, practicing web applications and demonstrating common networking tasks on cloud platforms.",
                 "Strong communication and teamworking skills to contribute to group project development.",
-                "To obtain a full-time or part-time position on Networking Technical or Web Developer.",
+                "To obtain a full-time or part-time position in Networking Technical or Web Developer.",
               ]}
             />
 
@@ -71,8 +71,8 @@ function Resume() {
               date="APRIL 2020 – JULY 2020"
               content={[
                 "Providing remote assistance via email, internet calling to help users handle their issues.",
-                "Support remote configuration of software and maintain the computer system if any computers get trouble.",
-                "Collaborate with other technicians to research the technical problems and information security.",
+                "Support remote configuration of software and maintain the computer system if any computers get in trouble.",
+                "Collaborate with other technicians to research technical problems and information security.",
               ]}
             />
 
