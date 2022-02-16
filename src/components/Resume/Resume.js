@@ -58,7 +58,7 @@ function Resume() {
             <ResumeDetails
               title=""
               content={[
-                "Three years Computer System Technology student with a solid experience in Networking support and Web development.",
+                "Three years Computer System Technology student with solid experience in Networking support and Web development.",
                 "Experienced in learning, practicing web applications and demonstrating common networking tasks on cloud platforms.",
                 "Strong communication and teamworking skills to contribute to group project development.",
                 "To obtain a full-time or part-time position in Networking Technical or Web Developer.",
