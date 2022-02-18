@@ -128,6 +128,21 @@ export const projectsAPI = [
     id: 5,
   },
   {
+    title: "K8S SPRING BOOT MYSQL",
+    description:
+    "In this project, I am going to create the connection between docker images for Spring Boot (.jar) and MySQL images by using the Kubernetes with Minikube service.",
+    image: "/images/Project/k8s-docker-springboot/avatar.png",
+    techs: [
+      "/images/AboutMe/SkillSet/kubernetes.png",
+      "/images/AboutMe/SkillSet/docker.svg",
+      "/images/AboutMe/SkillSet/java.svg",
+      "/images/AboutMe/SkillSet/springboot.png",
+    ],
+    source: "https://github.com/phamanhdung1813/k8s-docker-springboot",
+    visit: "https://www.youtube.com/watch?v=YYtc5NCL7lk",
+    id: 14,
+  },
+  {
     title: "UI SPRING REACTJS",
     description:
       "This project is the was built in ReactJs, I used the core Back-End security of the project ''Spring Security JWT Token''. In this project, I learned how to use the token released by the server to transfer into the ReactJs storage and configure the proper authorities for the system user to allow access, modify the data.",
