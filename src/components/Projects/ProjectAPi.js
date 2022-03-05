@@ -33,22 +33,6 @@ export const projectsAPI = [
     id: 1,
   },
   {
-    title: "DOCKER JENKINS AUTOMATE MAVEN PROJECT",
-    description:
-      "This project was built in OpenJDK 8 using Jenkins for Continuous Integration and interact with the Docker Hub automatically. When committing the project into GitHub account, Jenkins will execute the maven building process to update the (.jar) file and push the tag file into Docker Hub account.",
-    image: "/images/Project/docker-jenkins-springboot/avatar.png",
-    techs: [
-      "/images/AboutMe/SkillSet/java.svg",
-      "/images/AboutMe/SkillSet/git.png",
-      "/images/AboutMe/SkillSet/springboot.png",
-      "/images/AboutMe/SkillSet/jenkins.svg",
-      "/images/AboutMe/SkillSet/docker.svg",
-    ],
-    source: "https://github.com/phamanhdung1813/docker-jenkins-springboot",
-    visit: "https://www.youtube.com/watch?v=lhRTevTtpLs",
-    id: 12,
-  },
-  {
     title: "OAUTH2 SPRING SECURITY",
     description:
       "This project was built in Spring Security OAuth2 with Java 11 JDK. In this project I learned how to use the PKCE code to make the use of OAuth 2.0 Authorization Code, OpenID connection to the server, Token Endpoint certification for JWT Token with asymmetric certification (PFX), and SHA256 encryption key for the Back-End released token.",
@@ -67,6 +51,24 @@ export const projectsAPI = [
     id: 2,
   },
   {
+    title: "SPRING CLOUD MICROSERVICES DOCKER AND KUBERNETES",
+    description:
+      "This project was built in Spring Security OAuth2 with Java 11 JDK. In this project I learned how to use the PKCE code to make the use of OAuth 2.0 Authorization Code, OpenID connection to the server, Token Endpoint certification for JWT Token with asymmetric certification (PFX), and SHA256 encryption key for the Back-End released token.",
+    image: "/images/Project/k8s-springboot-cloud-microservices/avatar.png",
+    techs: [
+      "/images/AboutMe/SkillSet/java.svg",
+      "/images/AboutMe/SkillSet/springboot.png",
+      "/images/AboutMe/SkillSet/springcloud.png",
+      "/images/AboutMe/SkillSet/kubernetes.png",
+      "/images/AboutMe/SkillSet/docker.svg",
+      "/images/AboutMe/SkillSet/rabbitmq.png",
+    ],
+    source:
+      "https://github.com/phamanhdung1813/k8s-springboot-cloud-microservices",
+    visit: "https://youtu.be/1Ggy0ReMLCs",
+    id: 3,
+  },
+  {
     title: "SPRINGBOOT REACTJS WEBSOCKET",
     description:
       "Websocket is a protocol that supports two-way communication between the client and the server to create a data exchange connection. This project demo shortly real-time chatting conversation by using StompClient and SockJS library, Backend server on this project was build in Java Spring Boot and client side was built on ReactJs.",
@@ -78,7 +80,7 @@ export const projectsAPI = [
     ],
     source: "https://github.com/phamanhdung1813/springboot-reactjs-websocket",
     visit: "https://www.youtube.com/watch?v=WiI4SYQ1m2I",
-    id: 13,
+    id: 4,
   },
   {
     title: "HOXTON CLOUD OAUTH2 SERVER",
@@ -94,7 +96,23 @@ export const projectsAPI = [
     ],
     source: "https://github.com/phamanhdung1813/hoxton-oauth2-authserver",
     visit: "https://github.com/phamanhdung1813/hoxton-oauth2-authserver",
-    id: 3,
+    id: 5,
+  },
+  {
+    title: "DOCKER JENKINS AUTOMATE MAVEN PROJECT",
+    description:
+      "This project was built in OpenJDK 8 using Jenkins for Continuous Integration and interact with the Docker Hub automatically. When committing the project into GitHub account, Jenkins will execute the maven building process to update the (.jar) file and push the tag file into Docker Hub account.",
+    image: "/images/Project/docker-jenkins-springboot/avatar.png",
+    techs: [
+      "/images/AboutMe/SkillSet/java.svg",
+      "/images/AboutMe/SkillSet/git.png",
+      "/images/AboutMe/SkillSet/springboot.png",
+      "/images/AboutMe/SkillSet/jenkins.svg",
+      "/images/AboutMe/SkillSet/docker.svg",
+    ],
+    source: "https://github.com/phamanhdung1813/docker-jenkins-springboot",
+    visit: "https://www.youtube.com/watch?v=lhRTevTtpLs",
+    id: 6,
   },
   {
     title: "OAUTH2 RESOURCE SERVER",
@@ -110,7 +128,7 @@ export const projectsAPI = [
     ],
     source: "https://github.com/phamanhdung1813/hoxton-oauth2-resourceserver",
     visit: "https://github.com/phamanhdung1813/hoxton-oauth2-resourceserver",
-    id: 4,
+    id: 7,
   },
   {
     title: "SPRING BOOT AWS S3",
@@ -125,12 +143,12 @@ export const projectsAPI = [
     ],
     source: "https://github.com/phamanhdung1813/springboot-aws-s3",
     visit: "https://github.com/phamanhdung1813/springboot-aws-s3",
-    id: 5,
+    id: 8,
   },
   {
     title: "K8S SPRING BOOT MYSQL",
     description:
-    "In this project, I am going to create the connection between docker images for Spring Boot (.jar) and MySQL images by using the Kubernetes with Minikube service.",
+      "In this project, I am going to create the connection between docker images for Spring Boot (.jar) and MySQL images by using the Kubernetes with Minikube service.",
     image: "/images/Project/k8s-docker-springboot/avatar.png",
     techs: [
       "/images/AboutMe/SkillSet/kubernetes.png",
@@ -140,7 +158,7 @@ export const projectsAPI = [
     ],
     source: "https://github.com/phamanhdung1813/k8s-docker-springboot",
     visit: "https://www.youtube.com/watch?v=YYtc5NCL7lk",
-    id: 14,
+    id: 9,
   },
   {
     title: "UI SPRING REACTJS",
@@ -154,7 +172,7 @@ export const projectsAPI = [
     ],
     source: "https://github.com/phamanhdung1813/ui_spring_reactjs",
     visit: "https://ui-spring-reactjs.herokuapp.com/",
-    id: 6,
+    id: 10,
   },
   {
     title: "AZURE LINUX IPTABLES ANALYSIS",
@@ -172,7 +190,7 @@ export const projectsAPI = [
       "https://github.com/phamanhdung1813/azure_security_iptables_analysis",
     visit:
       "https://github.com/phamanhdung1813/azure_security_iptables_analysis",
-    id: 7,
+    id: 11,
   },
   {
     title: "MULTIPLE LOGIN ACTIVE DIRECTORY",
@@ -188,7 +206,7 @@ export const projectsAPI = [
     source:
       "https://github.com/phamanhdung1813/multiple_login_active_directory",
     visit: "https://github.com/phamanhdung1813/multiple_login_active_directory",
-    id: 8,
+    id: 12,
   },
   {
     title: "DATA BACKUP SLAVE SQL",
@@ -204,7 +222,7 @@ export const projectsAPI = [
     ],
     source: "https://github.com/phamanhdung1813/data_backup_slave_sql",
     visit: "https://github.com/phamanhdung1813/data_backup_slave_sql",
-    id: 9,
+    id: 13,
   },
   {
     title: "OPEN VPN TUNNEL",
@@ -220,7 +238,7 @@ export const projectsAPI = [
     ],
     source: "https://github.com/phamanhdung1813/open_vpn_and_vpn_tunnel",
     visit: "https://github.com/phamanhdung1813/open_vpn_and_vpn_tunnel",
-    id: 10,
+    id: 14,
   },
   {
     title: "MAIL SERVER DATABASE ADMIN",
@@ -236,6 +254,6 @@ export const projectsAPI = [
     ],
     source: "https://github.com/phamanhdung1813/mail_server_database_admin",
     visit: "https://github.com/phamanhdung1813/mail_server_database_admin",
-    id: 11,
+    id: 15,
   },
 ];
