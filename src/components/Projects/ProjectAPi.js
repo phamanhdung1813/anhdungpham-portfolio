@@ -53,7 +53,7 @@ export const projectsAPI = [
   {
     title: "SPRING CLOUD MICROSERVICES DOCKER AND KUBERNETES",
     description:
-      "This project was built in Spring Security OAuth2 with Java 11 JDK. In this project I learned how to use the PKCE code to make the use of OAuth 2.0 Authorization Code, OpenID connection to the server, Token Endpoint certification for JWT Token with asymmetric certification (PFX), and SHA256 encryption key for the Back-End released token.",
+      "In this project, we will develop Microservices communication with Java Spring Cloud, then creating Maven Jib profiles to push all of images to Docker registry. After that, we will demo the application with Spring Profiles, Kubernetes Cluster YAML config files, and distribute data to view data transfer between microservices.",
     image: "/images/Project/k8s-springboot-cloud-microservices/avatar.png",
     techs: [
       "/images/AboutMe/SkillSet/java.svg",
