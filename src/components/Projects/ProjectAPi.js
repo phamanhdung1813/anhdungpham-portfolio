@@ -33,6 +33,24 @@ export const projectsAPI = [
     id: 1,
   },
   {
+    title: "SPRING CLOUD MICROSERVICES DOCKER AND KUBERNETES",
+    description:
+      "In this project, we will develop Microservices communication with Java Spring Cloud, then creating Maven Jib profiles to push all of images to Docker registry. After that, we will demo the application with Spring Profiles, Kubernetes Cluster YAML config files, and distribute data to view data transfer between microservices.",
+    image: "/images/Project/k8s-springboot-cloud-microservices/avatar.png",
+    techs: [
+      "/images/AboutMe/SkillSet/java.svg",
+      "/images/AboutMe/SkillSet/springboot.png",
+      "/images/AboutMe/SkillSet/springcloud.png",
+      "/images/AboutMe/SkillSet/kubernetes.png",
+      "/images/AboutMe/SkillSet/docker.png",
+      "/images/AboutMe/SkillSet/rabbitmq.png",
+    ],
+    source:
+      "https://github.com/phamanhdung1813/k8s-springboot-cloud-microservices",
+    visit: "https://youtu.be/1Ggy0ReMLCs",
+    id: 2,
+  },
+  {
     title: "OAUTH2 SPRING SECURITY",
     description:
       "This project was built in Spring Security OAuth2 with Java 11 JDK. In this project I learned how to use the PKCE code to make the use of OAuth 2.0 Authorization Code, OpenID connection to the server, Token Endpoint certification for JWT Token with asymmetric certification (PFX), and SHA256 encryption key for the Back-End released token.",
@@ -48,24 +66,6 @@ export const projectsAPI = [
       "https://github.com/phamanhdung1813/oauth2-spring-security-authserver",
     visit:
       "https://github.com/phamanhdung1813/oauth2-spring-security-authserver",
-    id: 2,
-  },
-  {
-    title: "SPRING CLOUD MICROSERVICES DOCKER AND KUBERNETES",
-    description:
-      "In this project, we will develop Microservices communication with Java Spring Cloud, then creating Maven Jib profiles to push all of images to Docker registry. After that, we will demo the application with Spring Profiles, Kubernetes Cluster YAML config files, and distribute data to view data transfer between microservices.",
-    image: "/images/Project/k8s-springboot-cloud-microservices/avatar.png",
-    techs: [
-      "/images/AboutMe/SkillSet/java.svg",
-      "/images/AboutMe/SkillSet/springboot.png",
-      "/images/AboutMe/SkillSet/springcloud.png",
-      "/images/AboutMe/SkillSet/kubernetes.png",
-      "/images/AboutMe/SkillSet/docker.svg",
-      "/images/AboutMe/SkillSet/rabbitmq.png",
-    ],
-    source:
-      "https://github.com/phamanhdung1813/k8s-springboot-cloud-microservices",
-    visit: "https://youtu.be/1Ggy0ReMLCs",
     id: 3,
   },
   {
@@ -108,7 +108,7 @@ export const projectsAPI = [
       "/images/AboutMe/SkillSet/git.png",
       "/images/AboutMe/SkillSet/springboot.png",
       "/images/AboutMe/SkillSet/jenkins.svg",
-      "/images/AboutMe/SkillSet/docker.svg",
+      "/images/AboutMe/SkillSet/docker.png",
     ],
     source: "https://github.com/phamanhdung1813/docker-jenkins-springboot",
     visit: "https://www.youtube.com/watch?v=lhRTevTtpLs",
@@ -152,7 +152,7 @@ export const projectsAPI = [
     image: "/images/Project/k8s-docker-springboot/avatar.png",
     techs: [
       "/images/AboutMe/SkillSet/kubernetes.png",
-      "/images/AboutMe/SkillSet/docker.svg",
+      "/images/AboutMe/SkillSet/docker.png",
       "/images/AboutMe/SkillSet/java.svg",
       "/images/AboutMe/SkillSet/springboot.png",
     ],
