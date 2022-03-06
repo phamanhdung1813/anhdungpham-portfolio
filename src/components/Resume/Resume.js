@@ -3,7 +3,6 @@ import Button from "react-bootstrap/Button";
 import ResumeDetails from "./ResumeDetails";
 import myResume from "../../Assets/Resume/AnhDungPham_Resume.pdf";
 import { VscDesktopDownload } from "react-icons/vsc";
-import { Link } from "react-router-dom";
 import { SiLinkedin } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
 import { BiWorld } from "react-icons/bi";
