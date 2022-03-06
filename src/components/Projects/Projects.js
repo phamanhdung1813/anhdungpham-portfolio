@@ -23,10 +23,14 @@ const Projects = () => {
       <Container>
         <div>
           <h1 className="project-heading">
-            In this page, I am going to show all of my <strong className="green">recent projects</strong>, and code deployment.
-            Further more details, please visit my <a href="https://github.com/phamanhdung1813" className="green">GitHub</a> repositories.  
+            In this page, I am going to show all of my{" "}
+            <strong className="green">recent projects</strong>, and code
+            deployment. Further more details, please visit my{" "}
+            <a href="https://github.com/phamanhdung1813" className="green">
+              GitHub
+            </a>{" "}
+            repositories.
           </h1>
-         
         </div>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {mapSingleProject}

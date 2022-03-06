@@ -13,10 +13,9 @@ function About() {
             md={12}
             style={{
               justifyContent: "center",
-              paddingTop: "10px",
             }}
           >
-            <h1 style={{ fontSize: "1em" }}>
+            <h3 className="writter">
               <Typewriter
                 options={{
                   strings: ["Who am I"],
@@ -25,7 +24,7 @@ function About() {
                   deleteSpeed: 20,
                 }}
               />
-            </h1>
+            </h3>
             <ShortAboutMe />
           </Col>
 
@@ -33,10 +32,9 @@ function About() {
             md={12}
             style={{
               justifyContent: "center",
-              paddingTop: "10px",
             }}
           >
-            <h1 style={{ fontSize: "1em" }}>
+            <h3 className="writter">
               <Typewriter
                 options={{
                   strings: ["About Me"],
@@ -45,7 +43,7 @@ function About() {
                   deleteSpeed: 20,
                 }}
               />
-            </h1>
+            </h3>
             <MyBio />
           </Col>
         </Row>

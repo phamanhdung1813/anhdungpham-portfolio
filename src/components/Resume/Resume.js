@@ -12,9 +12,15 @@ import { BsGithub, BsFillTelephoneInboundFill } from "react-icons/bs";
 function Resume() {
   return (
     <Container fluid className="resume-section">
+      <br />
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="outline-success" href={myResume} target="_blank">
+          <Button
+            className="download-rem"
+            variant="outline-success"
+            href={myResume}
+            target="_blank"
+          >
             <VscDesktopDownload />
             &nbsp;Download Resume
           </Button>
@@ -25,17 +31,17 @@ function Resume() {
             <ResumeDetails title="ANH DUNG PHAM" content={[]} />
 
             <div className="resume-item">
-              <p style={{ fontSize: "18px", textAlign: "left" }}>
+              <p className="li-rem">
                 <BiWorld style={{ fontSize: "1.3rem" }} /> Website :{" "}
                 <a href="https://stanleypham.com/">stanleypham.com</a>
               </p>
-              <p style={{ fontSize: "18px", textAlign: "left" }}>
+              <p className="li-rem">
                 <SiLinkedin style={{ fontSize: "1.3rem" }} /> LinkedIn :{" "}
                 <a href="https://www.linkedin.com/in/anh-dung-pham-38830b1a6/">
                   https://www.linkedin.com/in/anh-dung-pham-38830b1a6/
                 </a>
               </p>
-              <p style={{ fontSize: "18px", textAlign: "left" }}>
+              <p className="li-rem">
                 <BsGithub style={{ fontSize: "1.3rem" }} /> GitHub:{" "}
                 <a href="https://github.com/phamanhdung1813">
                   https://github.com/phamanhdung1813
@@ -97,20 +103,17 @@ function Resume() {
               ]}
             />
             <div className="resume-item">
-              <p style={{ fontSize: "18px", textAlign: "left" }}>
+              <p className="li-rem">
                 LinkedIn Certificates:{" "}
                 <a href="https://www.linkedin.com/in/anh-dung-pham-38830b1a6/">
                   https://www.linkedin.com/in/anh-dung-pham-38830b1a6/
                 </a>
               </p>
-              <p style={{ fontSize: "18px", textAlign: "left" }}>
+              <p className="li-rem">
                 GitHub Source:{" "}
                 <a href="https://github.com/phamanhdung1813">
                   https://github.com/phamanhdung1813
                 </a>
-              </p>
-              <p style={{ fontSize: "18px", textAlign: "left" }}>
-                Project Demo: <Link to="/project">CLICK HERE !!!</Link>
               </p>
             </div>
 
@@ -128,7 +131,12 @@ function Resume() {
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="outline-success" href={myResume} target="_blank">
+          <Button
+            className="download-rem"
+            variant="outline-success"
+            href={myResume}
+            target="_blank"
+          >
             <VscDesktopDownload />
             &nbsp;Download Resume
           </Button>

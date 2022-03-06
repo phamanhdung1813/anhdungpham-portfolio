@@ -5,9 +5,9 @@ import SkillSet from "./SkillSet";
 function ShortAboutMe() {
   return (
     <Card className="quote-card-view">
-      <Card.Body>
+      <Card.Body style={{paddingLeft:"0px"}}>
         <blockquote className="blockquote mb-0">
-          <Card.Text style={{ textAlign: "justify" }}>
+          <Card.Text style={{ textAlign: "left" }}>
             Hi there !!!{" "}
             <span className="wave" role="img" aria-labelledby="wave">
               👋🏻
@@ -34,7 +34,7 @@ function ShortAboutMe() {
             </span>
             <br />
           </Card.Text>
-          My <span style={{ fontWeight:"bold", fontSize:"1.4rem", color: "#e05e0d" }}>SKILLSET:</span>
+          My <span className="skillset">SKILLSET:</span>
           <SkillSet />
         </blockquote>
       </Card.Body>

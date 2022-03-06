@@ -8,11 +8,11 @@ import { SiGmail } from "react-icons/si";
 
 function ExtraHome() {
   return (
-    <Container className="" id="about">
+    <Container id="about">
       <Container>
         <Row>
           <Col md={5} className="home-about-social">
-            <h1>CONTACT ME ON</h1>
+            <h1 className="contact-me-on">CONTACT ME ON</h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a

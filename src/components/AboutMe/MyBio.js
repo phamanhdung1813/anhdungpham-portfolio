@@ -4,9 +4,9 @@ import Card from "react-bootstrap/Card";
 function MyBio() {
   return (
     <Card className="quote-card-view">
-      <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <Card.Text style={{ textAlign: "justify" }}>
+      <Card.Body style={{paddingLeft:"0px"}}>
+        <blockquote className="blockquote">
+          <Card.Text style={{ textAlign: "left"}}>
             I was born in <span className="green">Vinh Long City</span>
             , it’s a small city in Western Vietnam's Mekong Delta.
             <br />

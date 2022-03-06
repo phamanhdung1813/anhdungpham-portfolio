@@ -5,7 +5,7 @@ import { BsQuestion } from "react-icons/bs";
 
 const ProjectDetails = (props) => {
   const pTech = props.techs.map((tech, i) => (
-    <div className="mb-2" style={{ display: "inline-block", padding:"10px", marginLeft:"15px"}} key={i}>
+    <div className="icon-project-image" key={i}>
       <Card.Img
         className="project-icon-custom-icon "
         alt={i}
@@ -17,34 +17,29 @@ const ProjectDetails = (props) => {
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.image} alt="card-img" />
-      <Card.Body>
+      <Card.Body style={{ paddingLeft: "20px" }}>
         <Card.Title>
-          <h4 style={{ textAlign: "center", color: "#38b6f5" }}>
+          <h4 style={{ textAlign: "center" }} className="project-title">
             {props.title}
           </h4>
         </Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Card.Text
-          style={{ fontSize: "24px", textAlign: "center", color: "#FF6F61" }}
-        >
+        <h4 className="technology">
           TECHNOLOGIES
-        </Card.Text>
+        </h4>
 
         <div>{pTech}</div>
 
-        <div style={{ textAlign: "center", display:"inline-block" }} className="mb-3">
+        <div className="source-demo">
           <a className="btn btn-outline-success" href={props.visit}>
             DEMO
-            <BsQuestion size="3rem" />
+            <BsQuestion className="demo-source-icon" />
           </a>
-          {"    "}
-          {"    "}
-          {"    "}
           <a className="btn btn-link btn-ln" href={props.source}>
             SOURCE
-            <BiCodeBlock size="4rem" />
+            <BiCodeBlock className="demo-source-icon" />
           </a>
         </div>
       </Card.Body>

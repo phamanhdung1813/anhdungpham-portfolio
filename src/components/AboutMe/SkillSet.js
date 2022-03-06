@@ -5,35 +5,35 @@ function SkillSet() {
   const coreLanguages = skillSetImages.languages.map((i, j) => (
     <div key={j} style={{ display: "inline" }}>
       <img className="about-me-custom-icon" alt={j} src={i} />
-      &nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;
     </div>
   ));
 
   const backend = skillSetImages.backend.map((i, j) => (
-    <div key={j} style={{ display: "inline" }}>
+    <div key={j} style={{ display: "inline-block" }}>
       <img className="about-me-custom-icon" alt={j} src={i} />
-      &nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;
     </div>
   ));
 
   const frontend = skillSetImages.frontend.map((i, j) => (
     <div key={j} style={{ display: "inline" }}>
       <img className="about-me-custom-icon" alt={j} src={i} />
-      &nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;
     </div>
   ));
 
   const platform = skillSetImages.platform.map((i, j) => (
     <div key={j} style={{ display: "inline" }}>
       <img className="about-me-custom-icon" alt={j} src={i} />
-      &nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;
     </div>
   ));
 
   return (
-    <ul>
+    <ul className="about-activity-ul">
       <li style={{ display: "inline" }} className="about-activity">
-        <h3 className="about-activity">Core Language: </h3>
+        <h3 className="about-activity">Core Languages: </h3>
         {coreLanguages}
         <br />
         <br />

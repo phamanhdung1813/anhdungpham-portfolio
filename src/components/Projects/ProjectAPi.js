@@ -19,7 +19,7 @@ export const projectsAPI = [
   {
     title: "SPRING SECURITY JWT TOKEN",
     description:
-      "This project was built in Maven and Java 11 JDK. In this project I learned how to create the Back-end token to implement the Authentication and Authorization tasks on the Server, and relational database with MySQL to perform the authority permission. Moreover, some of security technologies to prevent HTTP's penetration like CSRF, Jwt Token, RSA key, ...",
+      "This project was built in Maven and Java 11 JDK. In this project I learned how to create the Back-end token to implement the Authentication and Authorization tasks on the Server, and relational database with MySQL to perform the authority permission. Moreover, some of security technologies to prevent HTTP's penetration like CSRF, Jwt Token, RSA key.",
     image: "/images/Project/spring_boot_security_backend/avatar.png",
     techs: [
       "/images/AboutMe/SkillSet/java.svg",

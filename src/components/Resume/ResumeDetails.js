@@ -11,7 +11,9 @@ function ResumeDetails(props) {
       </p>
       <ul>
         {props.content.map((value, index) => (
-          <li style={{fontSize:"18px", textAlign:"left"}} key={index}>• {value}</li>
+          <li className="li-rem" key={index}>
+            • {value}
+          </li>
         ))}
       </ul>
     </div>
