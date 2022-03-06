@@ -9,7 +9,7 @@ export const projectsAPI = [
       "/images/AboutMe/SkillSet/javascript.svg",
       "/images/AboutMe/SkillSet/bootstrap.png",
       "/images/AboutMe/SkillSet/HTML5.svg",
-      "/images/AboutMe/SkillSet/css3.svg",
+      "/images/AboutMe/SkillSet/css3.png",
     ],
     name: ["React JS", "JavaScript", "Bootstrap", "HTML5", "CSS3"],
     source: "https://github.com/phamanhdung1813/anhdungpham-portfolio",

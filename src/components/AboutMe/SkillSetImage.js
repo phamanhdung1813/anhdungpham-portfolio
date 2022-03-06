@@ -4,7 +4,7 @@ export const skillSetImages = {
     "/images/AboutMe/SkillSet/python.svg",
     "/images/AboutMe/SkillSet/javascript.svg",
     "/images/AboutMe/SkillSet/HTML5.svg",
-    "/images/AboutMe/SkillSet/CSS3.svg",
+    "/images/AboutMe/SkillSet/css3.png",
   ],
 
   backend: [
